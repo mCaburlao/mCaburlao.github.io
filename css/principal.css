@@ -13,8 +13,8 @@ body{
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(-45deg, #ee7752, #890092, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-  -webkit-animation: gradient 15s ease infinite;
+	animation: gradient 10s ease infinite;
+  -webkit-animation: gradient 10s ease infinite;
 	height: 100vh;
 }
 @keyframes gradient {
@@ -73,7 +73,7 @@ body{
   --s: 200px;   /* the size of the image */
   --b: 8px;     /* the border thickness*/
   --g: 14px;    /* the gap */
-  --c: #ED00FC; /* the color */
+  --c: #BE00CA; /* the color */
   
   width: var(--s);
   aspect-ratio: 1;
@@ -121,11 +121,12 @@ body{
 }
 .icons li{
   list-style-type: none;
-  background: #ED00FC;
+  //background: #ED00FC;
   color: #fff;
   width: 40px;
   height: 40px;
   margin: 0 0.5rem;
+  background: linear-gradient(45deg, #ee7752, #890092);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -136,9 +137,11 @@ body{
 
   &:hover{
     background: #edffec;
-    color: #000;
+    color: #12192c;
+    filter: drop-shadow(0 0 0.5rem #fccaff);
   }
 }
+
 .about-right{
   background: #12192c;
   height: 100vh;
@@ -178,7 +181,7 @@ body{
   border: none;
   font-size: 0.9rem;
   text-transform: uppercase;
-  border: 2px solid #fff;
+  border: 2px solid transparent;
   border-radius: 20px;
   padding: 0.55rem 0;
   width: 130px;
@@ -189,17 +192,20 @@ body{
   color:#fff;
 }
 .btn.btn-pink{
-  background: #ED00FC;
+  background: linear-gradient(45deg, #ee7752, #890092);
+  background-size: 120%;
+  background-position: center;
   color: #fff;
-  border-color: #ED00FC;
   transition: all 0.5s ease-in-out;
 
   &:hover{
     background: transparent;
-    border-color: #fff;
+    border: 2px solid #fff;
     color: #fff;
+    filter: drop-shadow(0 0 0.5rem #fccaff);
   }
 }
+
 .about-para p{
   font-weight: 300;
   padding: 0.5rem;
