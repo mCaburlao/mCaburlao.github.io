@@ -51,7 +51,7 @@ body{
   align-items: center;
   justify-content: center;
   height: 100vh;
-  color:#fff
+  color:#fff;
 }
 .about-left-content > div{
   background: #12192c;
@@ -210,6 +210,11 @@ body{
   font-weight: 300;
   padding: 0.5rem;
   opacity: 0.8;
+}
+
+.about-para b{
+  color: #F998FF;
+  opacity: 1;
 }
 
 @media screen and (min-width: 992px){
