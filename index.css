@@ -1,10 +1,46 @@
+:root{
+    --color_back_1 : #4f1e10;
+    --color_back_2 : #3c053f;
+    --color_back_3 : #093849;
+    --color_back_4 : #04392d;
+}
+
 body {
     margin: 0;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f7f7f7;
+    background: linear-gradient(-45deg, 
+                var(--color_back_1), var(--color_back_2), var(--color_back_3), var(--color_back_4));
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+    -webkit-animation: gradient 10s ease infinite;
+	height: 100vh;
+    overflow-x:hidden;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .section-heading {
@@ -15,7 +51,7 @@ body {
     margin: 0 0 70px;
 }
 
-.container {
+.container2 {
     display: flex;
     justify-content: center;
     width: 90%;
@@ -33,13 +69,25 @@ body {
 }
 
 .profile img {
-    width: 300px;
-    height: 300px;
+    --s: 280px;   /* the size of the image */
+    --b: 5px;     /* the border thickness*/
+    --g: 14px;    /* the gap */
+    --c: #F92F5F; /* the color */
+    
+    width: var(--s);
+    height: var(--s);
     object-fit: cover;
+    outline: calc(var(--s)/2) solid #0000;
+    outline-offset: calc(var(--s)/-2);
     border-radius: 50%;
-    border: 5px solid #f7f7f7;
     filter: drop-shadow(-20px 0 10px rgba(0, 0, 0, 0.1));
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        outline: var(--b) solid var(--c);
+        outline-offset: var(--g);
+    }
 }
 
 .profile:not(:first-child) img {
@@ -56,7 +104,7 @@ body {
     height: 15px;
     position: absolute;
     background-color: #000;
-    padding: 20px 30px;
+    padding: 45px 100px;
     border-radius: 10px;
     bottom: -80px; left: 50%;
     white-space: nowrap;
@@ -78,7 +126,7 @@ body {
     transform: translate(-50%, -50%) rotate(45deg);
 }
 
-.profile img:hover + .nome {
+.profile a:hover + .nome {
     opacity: 1;
     transform: translateX(-50%);
     box-shadow: 0 10px 20px rgba(86, 86, 198, 0.3);
