@@ -18,7 +18,6 @@ body{
   -webkit-animation: gradient 10s ease infinite;
 	height: 100vh;
   margin: 0;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;

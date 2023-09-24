@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
 :root{
     --background_colour : #12192c;
     --font_colour : #AAA;
@@ -27,6 +30,8 @@
     margin: 0px auto;
     padding: 50px 0;
     clear: both;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 @media only screen and (min-width: 1200px) {
     .container {
