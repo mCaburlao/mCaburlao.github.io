@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
-
 :root{
     --background_colour : #12192c;
     --font_colour : #AAA;
@@ -426,12 +425,12 @@
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	
 	.mcd-menu { 
-		width: 50px;
+		width: 85px;
 	}
 	.mcd-menu li a { 
 		position: relative;
 		padding: 12px 16px;
-		height:20px;
+		height:35px;
 	}
 	.mcd-menu li a small { 
 		display: none;
@@ -502,7 +501,7 @@
 
 @media only screen and (max-width: 479px) {
     .mcd-menu { 
-		width: 50px;
+		width: 70px;
 	}
 	.mcd-menu li a { 
 		position: relative;
