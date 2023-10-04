@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-45deg, #4f1e10, #3c053f, #093849, #04392d);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    -webkit-animation: gradient 10s ease infinite;
+    height: 100vh;
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.principal{
+    margin-left: 100px;
+    align-items: start;
+}
+
+.holder {
+    display: flex;
+    background-color: #000000;
+    margin: 1px 0px 30px 200px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 250px;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.holder .item_n{
+    background: #808080;      
+    margin: 100px 25px;
+    width: 1px; 
+    height: 250px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+td {width: 1px;}
+
+.holder div:not(.item_n){
+    background: #808080;      
+    margin: 100px 25px;
+    height: 180px;
+    width: auto; 
+    min-width: 20%;
+    max-width: 25%; 
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h4{
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    color: #fff;
+    margin: 0 0 0px;
+    text-align: center;
+}
