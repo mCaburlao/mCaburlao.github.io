@@ -7,8 +7,13 @@ body{
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
     -webkit-animation: gradient 10s ease infinite;
+    height: 100vh;
     margin: 0;
-    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
 
 @keyframes gradient {
@@ -34,39 +39,57 @@ body{
 	}
 }
 
-.principal{
+.container{
+    height: 100vh;
     display: flex;
-    margin-left: 200px;
+    align-items: center;
 }
 
-.container {
+.principal{
+    margin-left: 100px;
+    align-items: start;
+}
+
+.holder {
     display: flex;
     background-color: #000000;
-    margin: 1px auto 30px;
+    margin: 1px 0px 30px 200px;
     font-family: sans-serif;
     justify-content: center;
     align-items: center;
-    max-width: 1500px;
-    height: 340px;
+    width: 100%;
+    max-width: 1440px;
+    height: 250px;
 }
 
 .nowrap {
     flex-wrap: nowrap;
 }
 
-.container .item_n{
-    width: 10px; 
+.holder .item_n{
+    background: #808080;      
+    margin: 100px 25px;
+    width: 1px; 
     height: 250px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     background-color: #000000;
 }
 
 td {width: 1px;}
 
-.container div {
+.holder div:not(.item_n){
     background: #808080;      
     margin: 100px 25px;
-    width: 310px; 
     height: 180px;
+    width: auto; 
+    min-width: 20%;
+    max-width: 25%; 
     font-size: 1em;
     color: #fff;
     /* as proriedades a partir daqui alinham o texto no centro */
@@ -77,8 +100,10 @@ td {width: 1px;}
 }
 
 img{
-    width: 350px;
-    height: 280px;
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    max-height: 100%;
 }
 
 h4{
