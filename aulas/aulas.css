@@ -39,7 +39,7 @@ body{
 
 .principal{
     display: flex;
-    margin-left: 200px;   
+    margin-left: 100px;   
 }
 
 
@@ -59,15 +59,16 @@ h1{
   }
 
 .aulas {
-    height: 100vh;
+    height: 80vh;
+    margin-top: 10vh;
     display: grid;
     flex-direction: row;
     align-items: center;
 }
 
 .aula_x {
-    width: 1150px;
-    height: 70px;
+    width: 95%;
+    height: 50px;
     background: #12192c;
     border-radius: 15px;
     margin: 20px 70px;
