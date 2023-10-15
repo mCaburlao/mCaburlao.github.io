@@ -1,0 +1,699 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-45deg, #4f1e10, #3c053f, #093849, #04392d);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    -webkit-animation: gradient 10s ease infinite;
+    height: 200vh;
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.principal{
+    margin-left: 200px;
+    margin-right: 50px;
+    width: 85%;
+    position: absolute;
+}
+.principal a{
+    text-decoration: none;
+}
+
+.audio{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.holder_t {
+    display: flex;
+    background-color: #000000;
+    margin: 0px 0px 3px 20px;
+    width:100%;
+    max-width: 1440px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.holder_t div:not(.item_n) {
+         
+    margin: 2px auto;
+    font-size: 1em;
+    color: #fff;
+
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.holder_t .item_n{     
+    margin:1px 1.5%;
+    width: 1px; 
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+
+.holder {
+    display: flex;
+    background-color: #000000;
+    margin: 2px 1px 10px 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 250px;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.holder .item_n{
+    background: #808080;      
+    margin: 10px 10px;
+    width: 1px; 
+    height: 250px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+    background-color: #000000;
+}
+
+.holder div:not(.item_n){
+    background: #808080;      
+    margin: 100px 25px;
+    height: 220px;
+    width: auto; 
+    min-width: 20%;
+    max-width: 25%; 
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    color: #fff;
+    margin: 0 0 0px;
+    text-align: center;
+}
+
+h2{
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    color: #fff;
+    margin: 0 50px 0px;
+    text-align: left;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #fff;
+    margin: 0 20px 0px;
+    text-align: justify;
+}
+
+.holder_t2 {
+    display: flex;
+    background-color: #000000;
+    margin: 30px 0px 3px 20px;
+    width:100%;
+    max-width: 1440px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.holder_t2 div:not(.item_n) {
+         
+    margin: 2px 150px;
+    font-size: 1em;
+    color: #fff;
+
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.holder_t2 .item_n{     
+    margin:1px 10px;
+    width: 1px; 
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.about-btns{
+    display: flex;
+    margin: 0rem 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+.btn{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 200px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    color:#fff;
+}
+.btn.btn-pink{
+    background: linear-gradient(45deg, #ee7752, #890092);
+    background-size: 120%;
+    background-position: center;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+  
+    &:hover{
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      filter: drop-shadow(0 0 0.5rem #fccaff);
+    }
+}
+
+.popup{
+    position: fixed;
+    top:0; bottom:0;
+    left:0; right: 0;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    display: none;
+    background: #000000;
+    overflow: auto;
+
+.popup .holder_t {
+    display: flex;
+    background-color: #000000;
+    margin: 0px 0px 3px 20px;
+    width: auto;
+    max-width: 1440px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.popup .holder_t div:not(.item_n) {
+    margin: 2px auto;
+    font-size: 1em;
+    color: #fff;
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.popup .holder_t .item_n{     
+    margin:1px 1.5%;
+    width: 1px; 
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+
+.popup .holder {
+    display: flex;
+    background-color: #000000;
+    margin: 2px 1px 10px 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 250px;
+}
+
+.popup .nowrap {
+    flex-wrap: nowrap;
+}
+
+.popup .holder .item_n{
+    background: #808080;      
+    margin: 10px 10px;
+    width: 1px; 
+    height: 250px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+    background-color: #000000;
+}
+
+.popup .holder div:not(.item_n){
+    background: #808080;      
+    margin: 100px 25px;
+    height: 220px;
+    width: auto; 
+    min-width: 20%;
+    max-width: 25%; 
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+.popup2{
+    position: fixed;
+    top:0; bottom:0;
+    left:0; right: 0;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    display: none;
+    background: #000000;
+    overflow: auto;
+
+.popup2 .holder_t {
+    display: flex;
+    background-color: #000000;
+    margin: 0px 0px 3px 20px;
+    width: auto;
+    max-width: 1440px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.popup2 .holder_t div:not(.item_n) {
+    margin: 2px auto;
+    font-size: 1em;
+    color: #fff;
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.popup2 .holder_t .item_n{     
+    margin:1px 1.5%;
+    width: 1px; 
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+
+.popup2 .holder {
+    display: flex;
+    background-color: #000000;
+    margin: 2px 1px 10px 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 250px;
+}
+
+.popup2 .nowrap {
+    flex-wrap: nowrap;
+}
+
+.popup2 .holder .item_n{
+    background: #808080;      
+    margin: 10px 10px;
+    width: 1px; 
+    height: 250px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+    background-color: #000000;
+}
+
+.popup2 .holder div:not(.item_n){
+    background: #808080;      
+    margin: 100px 25px;
+    height: 220px;
+    width: auto; 
+    min-width: 20%;
+    max-width: 25%; 
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+.popup3{
+    position: fixed;
+    top:0; bottom:0;
+    left:0; right: 0;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    display: none;
+    background: #000000;
+    overflow: auto;
+
+.popup3 .holder_t {
+    display: flex;
+    background-color: #000000;
+    margin: 0px 0px 3px 20px;
+    width: auto;
+    max-width: 1440px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.popup3 .holder_t div:not(.item_n) {
+    margin: 2px auto;
+    font-size: 1em;
+    color: #fff;
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.popup3 .holder_t .item_n{     
+    margin:1px 1.5%;
+    width: 1px; 
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+
+.popup3 .holder {
+    display: flex;
+    background-color: #000000;
+    margin: 2px 1px 10px 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 250px;
+}
+
+.popup3 .nowrap {
+    flex-wrap: nowrap;
+}
+
+.popup3 .holder .item_n{
+    background: #808080;      
+    margin: 10px 10px;
+    width: 1px; 
+    height: 250px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+    background-color: #000000;
+}
+
+.popup3 .holder div:not(.item_n){
+    background: #808080;      
+    margin: 100px 25px;
+    height: 220px;
+    width: auto; 
+    min-width: 20%;
+    max-width: 25%; 
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+.popup4{
+    position: fixed;
+    top:0; bottom:0;
+    left:0; right: 0;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    display: none;
+    background: #000000;
+    overflow: auto;
+
+.popup4 .holder_t {
+    display: flex;
+    background-color: #000000;
+    margin: 0px 0px 3px 20px;
+    width: auto;
+    max-width: 1440px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.popup4 .holder_t div:not(.item_n) {
+    margin: 2px auto;
+    font-size: 1em;
+    color: #fff;
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.popup4 .holder_t .item_n{     
+    margin:1px 1.5%;
+    width: 1px; 
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+
+.popup4 .holder {
+    display: flex;
+    background-color: #000000;
+    margin: 2px 1px 10px 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 250px;
+}
+
+.popup4 .nowrap {
+    flex-wrap: nowrap;
+}
+
+.popup4 .holder .item_n{
+    background: #808080;      
+    margin: 10px 10px;
+    width: 1px; 
+    height: 250px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+    background-color: #000000;
+}
+
+.popup4 .holder div:not(.item_n){
+    background: #808080;      
+    margin: 100px 25px;
+    height: 220px;
+    width: auto; 
+    min-width: 20%;
+    max-width: 25%; 
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+.popup5{
+    position: fixed;
+    top:0; bottom:0;
+    left:0; right: 0;
+    margin: auto;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    display: none;
+    background: #000000;
+    overflow: auto;
+
+.popup5 .holder_t {
+    display: flex;
+    background-color: #000000;
+    margin: 0px 0px 3px 20px;
+    width: auto;
+    max-width: 1440px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.popup5 .holder_t div:not(.item_n) {
+    margin: 2px auto;
+    font-size: 1em;
+    color: #fff;
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.popup5 .holder_t .item_n{     
+    margin:1px 1.5%;
+    width: 1px; 
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+
+.popup5 .holder {
+    display: flex;
+    background-color: #000000;
+    margin: 2px 1px 10px 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 250px;
+}
+
+.popup5 .nowrap {
+    flex-wrap: nowrap;
+}
+
+.popup5 .holder .item_n{
+    background: #808080;      
+    margin: 10px 10px;
+    width: 1px; 
+    height: 250px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+    background-color: #000000;
+}
+
+.popup5 .holder div:not(.item_n){
+    background: #808080;      
+    margin: 100px 25px;
+    height: 220px;
+    width: auto; 
+    min-width: 20%;
+    max-width: 25%; 
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+}

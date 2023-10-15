@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Aulas || Nós multímidia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lab2.css">
+    <link rel="stylesheet" href="../../menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&display=swap">
+
+    <script type="text/javascript">
+        function abrir(){
+            document.getElementById('popup').style.display = 'block';
+        }
+        function fechar(){
+            document.getElementById('popup').style.display = 'none';
+        }
+
+        function abrir2(){
+            document.getElementById('popup2').style.display = 'block';
+        }
+        function fechar2(){
+            document.getElementById('popup2').style.display = 'none';
+        }
+
+        function abrir3(){
+            document.getElementById('popup3').style.display = 'block';
+        }
+        function fechar3(){
+            document.getElementById('popup3').style.display = 'none';
+        }
+
+        function abrir4(){
+            document.getElementById('popup4').style.display = 'block';
+        }
+        function fechar4(){
+            document.getElementById('popup4').style.display = 'none';
+        }
+
+        function abrir5(){
+            document.getElementById('popup5').style.display = 'block';
+        }
+        function fechar5(){
+            document.getElementById('popup5').style.display = 'none';
+        }
+    </script>
+    
+  </head>
+
+  <body>
+
+    <div class="container">
+        <nav>
+            <ul class="mcd-menu">
+                <li>
+                    <a href="">
+                        <i class="fa fa-home"></i>
+                        <strong>Home</strong>
+                        <small>em desenvolvimento</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="../../index.html">
+                        <i class="fa fa-edit"></i>
+                        <strong>Sobre nós</strong>
+                        <small>Completo</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="../aulas.html" class="active">
+                        <i class="fa fa-archive"></i>
+                        <strong>Aulas</strong>
+                        <small>em desenvolvimento</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fas fa-ghost"></i>
+                        <strong>Game</strong>
+                        <small>em desenvolvimento</small>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="principal">
+        
+        <h1>Fotos e Vídeos </h1>
+
+        
+        <audio controls class = "audio" style="width: 300px; height: 40px;">
+            <source src="lab2_audio.ogg" type="audio/ogg">
+        </audio>
+
+        <br>
+        <div class = "about-btns">
+            <button 
+                onclick="document.location='lab2_texto.html'" type = "button" 
+                class = "btn btn-pink">Relatório escrito</button>
+        </div>
+        <br>
+
+        <div class="holder_t">
+            <div class="item_n"><td><i class="fa fa-camera"></i></td></div>
+            <div class="item_1">Celular</div>
+            <div class="item_2">Preto e Branco</div>
+            <div class="item_3">Câmera semi-profissional</div>
+            <div class="item_3">Avatar</div>
+            <div class="item_n"><td><i class="fa fa-camera"></i></td></div>
+        </div>
+
+        <a href="javascript: abrir()">
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Caio/caio_celular.jpeg" alt = "Caio"></div>
+            <div class="item_2"><img src = "fotos/Caio/caio_PB.jpeg" alt = "Caio"></div>
+            <div class="item_3"><img src = "fotos/Caio/caio_filmadora.JPG" alt = "Caio"></div>
+            <div class="item_4"><img src = "fotos/Caio/caio_m.png" alt = "Caio"></div>
+            <div class="item_n"><td>C A I O</td></div>
+        </div>
+        </a>
+
+<!-- ####################  POP UP CAIO ABRIR ######################################-->
+        <div id="popup" class="popup">
+
+            <div class="holder_t">
+                <div class="item_n"><td><i class="fa fa-camera"></i></td></div>
+                <div class="item_1">Celular</div>
+                <div class="item_2">Preto e Branco</div>
+                <div class="item_3">Câmera semi-profissional</div>
+                <div class="item_3">Avatar</div>
+                <a href="javascript: fechar()">
+                <div class="item_n"><td><i class="fa fa-window-close"></i>&nbsp;Close</td></div>
+                </a>
+            </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Caio/caio_celular.jpeg" alt = "Caio"></div>
+            <div class="item_2"><img src = "fotos/Caio/caio_PB.jpeg" alt = "Caio"></div>
+            <div class="item_3"><img src = "fotos/Caio/caio_filmadora.JPG" alt = "Caio"></div>
+            <div class="item_4"><img src = "fotos/Caio/caio_m.png" alt = "Caio"></div>
+            <div class="item_n"><td>C A I O</td></div>
+        </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Caio/100caio_celular.jpg" alt = "100Caio"></div>
+            <div class="item_2"><img src = "fotos/Caio/100caio_celular_PB.jpg" alt = "100Caio"></div>
+            <div class="item_3"><img src = "fotos/Caio/100caio_filmadora.jpg" alt = "100Caio"></div>
+            <div class="item_4"><img src = "fotos/Caio/100caio_m.png" alt = "100Caio"></div>
+            <div class="item_n"><td>C A I O &nbsp; 7 5 %</td></div>
+        </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Caio/200caio_celular.jpg" alt = "200Caio"></div>
+            <div class="item_2"><img src = "fotos/Caio/200caio_celular_PB.jpg" alt = "200Caio"></div>
+            <div class="item_3"><img src = "fotos/Caio/200caio_filmadora.jpg" alt = "200Caio"></div>
+            <div class="item_4"><img src = "fotos/Caio/200caio_m.png" alt = "200Caio"></div>
+            <div class="item_n"><td>C A I O &nbsp; 5 0 %</td></div>
+        </div>
+        </div>
+<!--#########################################################################################################-->
+        
+        <a href="javascript: abrir2()">
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Lucas/lucas_celular.jpeg" alt = "Lucas"></div>
+            <div class="item_2"><img src = "fotos/Lucas/lucas_PB.jpeg" alt = "Lucas"></div>
+            <div class="item_3"><img src = "fotos/Lucas/lucas_filmadora.JPG" alt = "Lucas"></div>
+            <div class="item_4"><img src = "fotos/Lucas/lucas_HA.png" alt = "Lucas"></div>
+            <div class="item_n"><td>L U C A S</td></div>
+        </div>
+        </a>
+
+<!-- ####################  POP UP LUCAS ABRIR ######################################-->
+        
+        <div id="popup2" class="popup2">
+            <div class="holder_t">
+                <div class="item_n"><td><i class="fa fa-camera"></i></td></div>
+                <div class="item_1">Celular</div>
+                <div class="item_2">Preto e Branco</div>
+                <div class="item_3">Câmera semi-profissional</div>
+                <div class="item_3">Avatar</div>
+                <a href="javascript: fechar2()">
+                <div class="item_n"><td><i class="fa fa-window-close"></i>&nbsp;Close</td></div>
+                </a>
+            </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Lucas/lucas_celular.jpeg" alt = "Lucas"></div>
+            <div class="item_2"><img src = "fotos/Lucas/lucas_PB.jpeg" alt = "Lucas"></div>
+            <div class="item_3"><img src = "fotos/Lucas/lucas_filmadora.JPG" alt = "Lucas"></div>
+            <div class="item_4"><img src = "fotos/Lucas/lucas_HA.png" alt = "Lucas"></div>
+            <div class="item_n"><td>L U C A S</td></div>
+        </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Lucas/100lucas_celular.jpg" alt = "Lucas"></div>
+            <div class="item_2"><img src = "fotos/Lucas/100lucas_PB.jpg" alt = "Lucas"></div>
+            <div class="item_3"><img src = "fotos/Lucas/100lucas_filmadora.JPG" alt = "Lucas"></div>
+            <div class="item_4"><img src = "fotos/Lucas/100lucas_HA.png" alt = "Lucas"></div>
+            <div class="item_n"><td>L U C A S &nbsp; 7 5 %</td></div>
+        </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Lucas/200lucas_celular.jpg" alt = "Lucas"></div>
+            <div class="item_2"><img src = "fotos/Lucas/200lucas_PB.jpg" alt = "Lucas"></div>
+            <div class="item_3"><img src = "fotos/Lucas/200lucas_filmadora.JPG" alt = "Lucas"></div>
+            <div class="item_4"><img src = "fotos/Lucas/200lucas_HA.png" alt = "Lucas"></div>
+            <div class="item_n"><td>L U C A S &nbsp; 5 0 %</td></div>
+        </div>
+        </div>
+
+<!--#########################################################################################################-->
+
+        <a href="javascript: abrir3()"> 
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Marcela/marcela_celular.jpeg" alt = "Marcela"></div>
+            <div class="item_2"><img src = "fotos/Marcela/marcela_PB.jpeg" alt = "Marcela"></div>
+            <div class="item_3"><img src = "fotos/Marcela/marcela_filmadora.JPG" alt = "Marcela"></div>
+            <div class="item_4"><img src = "fotos/Marcela/marcela_PJ.png" alt = "Marcela"></div>
+            <div class="item_n"><td>M A R C E L A</td></div>
+        </div>
+        </a>
+
+<!-- ####################  POP UP MARCELA ABRIR ######################################-->
+        <div id="popup3" class="popup3">
+            <div class="holder_t">
+                <div class="item_n"><td><i class="fa fa-camera"></i></td></div>
+                <div class="item_1">Celular</div>
+                <div class="item_2">Preto e Branco</div>
+                <div class="item_3">Câmera semi-profissional</div>
+                <div class="item_3">Avatar</div>
+                <a href="javascript: fechar3()">
+                <div class="item_n"><td><i class="fa fa-window-close"></i>&nbsp;Close</td></div>
+                </a>
+            </div>
+            
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Marcela/marcela_celular.jpeg" alt = "Marcela"></div>
+            <div class="item_2"><img src = "fotos/Marcela/marcela_PB.jpeg" alt = "Marcela"></div>
+            <div class="item_3"><img src = "fotos/Marcela/marcela_filmadora.JPG" alt = "Marcela"></div>
+            <div class="item_4"><img src = "fotos/Marcela/marcela_PJ.png" alt = "Marcela"></div>
+            <div class="item_n"><td>M A R C E L A</td></div>
+        </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Marcela/100marcela_celular.jpg" alt = "Marcela"></div>
+            <div class="item_2"><img src = "fotos/Marcela/100marcela_PB.jpg" alt = "Marcela"></div>
+            <div class="item_3"><img src = "fotos/Marcela/100marcela_filmadora.jpg" alt = "Marcela"></div>
+            <div class="item_4"><img src = "fotos/Marcela/100marcela_PJ.png" alt = "Marcela"></div>
+            <div class="item_n"><td>M A R C E L A &nbsp; 7 5 %</td></div>
+        </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Marcela/200marcela_celular.jpg" alt = "Marcela"></div>
+            <div class="item_2"><img src = "fotos/Marcela/200marcela_PB.jpg" alt = "Marcela"></div>
+            <div class="item_3"><img src = "fotos/Marcela/200marcela_filmadora.jpg" alt = "Marcela"></div>
+            <div class="item_4"><img src = "fotos/Marcela/200marcela_PJ.png" alt = "Marcela"></div>
+            <div class="item_n"><td>M A R C E L A &nbsp; 5 0 %</td></div>
+        </div>
+        </div>
+
+<!--#########################################################################################################-->
+
+        <a href="javascript: abrir4()"> 
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Michael/michael_celular.jpeg" alt = "Michael"></div>
+            <div class="item_2"><img src = "fotos/Michael/michael_PB.jpeg" alt = "Michael"></div>
+            <div class="item_3"><img src = "fotos/Michael/michael_filmadora.JPG" alt = "Michael"></div>
+            <div class="item_4"><img src = "fotos/Michael/michael_FE.png" alt = "Michael"></div>
+            <div class="item_n"><td>M I C H A E L</td></div>
+        </div>
+        </a>
+
+<!-- ####################  POP UP MICHAEL ABRIR ######################################-->
+        <div id="popup4" class="popup4">
+            <div class="holder_t">
+                <div class="item_n"><td><i class="fa fa-camera"></i></td></div>
+                <div class="item_1">Celular</div>
+                <div class="item_2">Preto e Branco</div>
+                <div class="item_3">Câmera semi-profissional</div>
+                <div class="item_3">Avatar</div>
+                <a href="javascript: fechar4()">
+                <div class="item_n"><td><i class="fa fa-window-close"></i>&nbsp;Close</td></div>
+                </a>
+            </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Michael/michael_celular.jpeg" alt = "Michael"></div>
+            <div class="item_2"><img src = "fotos/Michael/michael_PB.jpeg" alt = "Michael"></div>
+            <div class="item_3"><img src = "fotos/Michael/michael_filmadora.JPG" alt = "Michael"></div>
+            <div class="item_4"><img src = "fotos/Michael/michael_FE.png" alt = "Michael"></div>
+            <div class="item_n"><td>M I C H A E L</td></div>
+        </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Michael/100michael_celular.jpg" alt = "Michael"></div>
+            <div class="item_2"><img src = "fotos/Michael/100michael_PB.jpg" alt = "Michael"></div>
+            <div class="item_3"><img src = "fotos/Michael/100michael_filmadora.jpg" alt = "Michael"></div>
+            <div class="item_4"><img src = "fotos/Michael/100michael_FE.png" alt = "Michael"></div>
+            <div class="item_n"><td>M I C H A E L &nbsp; 7 5 %</td></div>
+        </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Michael/200michael_celular.jpg" alt = "Michael"></div>
+            <div class="item_2"><img src = "fotos/Michael/200michael_PB.jpg" alt = "Michael"></div>
+            <div class="item_3"><img src = "fotos/Michael/200michael_filmadora.jpg" alt = "Michael"></div>
+            <div class="item_4"><img src = "fotos/Michael/200michael_FE.png" alt = "Michael"></div>
+            <div class="item_n"><td>M I C H A E L &nbsp; 5 0 %</td></div>
+        </div>
+        </div>
+
+<!--#########################################################################################################-->
+
+        <a href="javascript: abrir5()">
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Nos/nos_celular.jpeg" alt = "Nos"></div>
+            <div class="item_2"><img src = "fotos/Nos/nos_PB.jpeg" alt = "Nos"></div>
+            <div class="item_3"><img src = "fotos/Nos/nos_filmadora.JPG" alt = "Nos"></div>
+            <div class="item_4"><img src = "fotos/Nos/nos_AV.png" alt = "Nos"></div>
+        </div>
+        </a>
+
+<!-- ####################  POP UP NOS ABRIR ######################################-->
+
+        <div id="popup5" class="popup5">
+            <div class="holder_t">
+                <div class="item_n"><td><i class="fa fa-camera"></i></td></div>
+                <div class="item_1">Celular</div>
+                <div class="item_2">Preto e Branco</div>
+                <div class="item_3">Câmera semi-profissional</div>
+                <div class="item_3">Avatar</div>
+                <a href="javascript: fechar5()">
+                <div class="item_n"><td><i class="fa fa-window-close"></i>&nbsp;Close</td></div>
+                </a>
+            </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Nos/nos_celular.jpeg" alt = "Nos"></div>
+            <div class="item_2"><img src = "fotos/Nos/nos_PB.jpeg" alt = "Nos"></div>
+            <div class="item_3"><img src = "fotos/Nos/nos_filmadora.JPG" alt = "Nos"></div>
+            <div class="item_4"><img src = "fotos/Nos/nos_AV.png" alt = "Nos"></div>
+        </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Nos/100nos_celular.jpg" alt = "Nos"></div>
+            <div class="item_2"><img src = "fotos/Nos/100nos_PB.jpg" alt = "Nos"></div>
+            <div class="item_3"><img src = "fotos/Nos/100nos_filmadora.jpg" alt = "Nos"></div>
+            <div class="item_4"><img src = "fotos/Nos/100nos_AV.png" alt = "Nos"></div>
+            <div class="item_n"><td>7 5 %</td></div>
+        </div>
+
+        <div class="holder nowrap">
+            <div class="item_1"><img src = "fotos/Nos/200nos_celular.jpg" alt = "Nos"></div>
+            <div class="item_2"><img src = "fotos/Nos/200nos_PB.jpg" alt = "Nos"></div>
+            <div class="item_3"><img src = "fotos/Nos/200nos_filmadora.jpg" alt = "Nos"></div>
+            <div class="item_4"><img src = "fotos/Nos/200nos_AV.png" alt = "Nos"></div>
+            <div class="item_n"><td>5 0 %</td></div>
+        </div>
+        </div>
+
+<!--#########################################################################################################-->
+
+        <div class="holder_t2">
+            <div class="item_n"><td><i class="fa fa-video"></i></td></div>
+            <div class="item_1">Lento</div>
+            <div class="item_2">Rápido</div>
+            <div class="item_n"><td><i class="fa fa-video"></i></td></div>
+        </div>
+
+
+        <div class="holder nowrap">
+            
+            <div class="item_1">
+                <video width="330" height="250" controls>
+                    <source src="videos/lento_480.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="item_2">
+                <video width="330" height="250" controls>
+                    <source src="videos/rapido_480P.mp4" type="video/mp4">
+                    </video>
+            </div>
+
+            <div class="item_n"><td>R E S O L U Ç Ã O</td></div>
+            <div class="item_n"><td>4 8 0 P</td></div>
+
+        </div>
+
+        <div class="holder nowrap">
+            
+            <div class="item_1">
+                <video width="330" height="250" controls>
+                    <source src="videos/lento_720.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="item_2">
+                <video width="330" height="250" controls>
+                    <source src="videos/rapido_720P.mp4" type="video/mp4">
+                    </video>
+            </div>
+
+            <div class="item_n"><td>R E S O L U Ç Ã O</td></div>
+            <div class="item_n"><td>7 2 0 P</td></div>
+
+        </div>
+
+        <div class="holder nowrap">
+            
+            <div class="item_1">
+                <video width="330" height="250" controls>
+                    <source src="videos/lento_1080.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="item_2">
+                <video width="330" height="250" controls>
+                    <source src="videos/rapido_1080P.mp4" type="video/mp4">
+                    </video>
+            </div>
+
+            <div class="item_n"><td>R E S O L U Ç Ã O</td></div>
+            <div class="item_n"><td>1 0 8 0 P</td></div>
+
+        </div>
+    </div>
+
+  </body>
+</html>
