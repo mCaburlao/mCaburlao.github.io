@@ -45,3 +45,49 @@ body{
     align-items: center;
 }
 
+.principal{
+    margin-left: 200px;
+    margin-right: 50px;
+    width: 85%;
+    position: absolute;
+}
+.principal a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    color: #fff;
+    margin: 0 0 0px;
+    text-align: center;
+}
+
+h2{
+    color: #fff;
+}
+
+.holder {
+    display: flex;
+    margin: 10px auto 30px;
+    max-width: auto;
+    font-family: sans-serif;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.holder div { 
+    height: 200px;
+    font-size: 1em;
+    color: #fff;
+    margin: 20px;
+    box-shadow: 5px 5px 5px #cacaca;
+    border-radius: 20%;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    /*text-align: center;
+    justify-content: center;
+    align-items: center;*/
+}
