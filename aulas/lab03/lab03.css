@@ -79,15 +79,16 @@ h2{
 }
 
 .holder div { 
-    height: 200px;
+    height: auto;
     font-size: 1em;
     color: #fff;
     margin: 20px;
     box-shadow: 5px 5px 5px #cacaca;
-    border-radius: 20%;
+    border-radius: 10px;
     /* as proriedades a partir daqui alinham o texto no centro */
     display: flex;
     /*text-align: center;
     justify-content: center;
     align-items: center;*/
 }
+
