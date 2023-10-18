@@ -92,3 +92,31 @@ h2{
     align-items: center;*/
 }
 
+.btn{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 250px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem 1rem;
+    cursor: pointer;
+    color:#fff;
+  }
+  .btn.btn-pink{
+    background: linear-gradient(45deg, #ee7752, #890092);
+    background-size: 120%;
+    background-position: center;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+  
+    &:hover{
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      filter: drop-shadow(0 0 0.5rem #fccaff);
+    }
+  }
