@@ -50,6 +50,7 @@ body{
     margin-right: 50px;
     width: 85%;
     position: absolute;
+    
 }
 .principal a{
     text-decoration: none;
@@ -83,8 +84,9 @@ h2{
     font-size: 1em;
     color: #fff;
     margin: 20px;
-    box-shadow: 5px 5px 5px #cacaca;
+    box-shadow: 0px 0px 20px 1px #cacaca;
     border-radius: 10px;
+    padding: 10px;
     /* as proriedades a partir daqui alinham o texto no centro */
     display: flex;
     /*text-align: center;
