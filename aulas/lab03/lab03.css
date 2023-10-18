@@ -68,7 +68,7 @@ h2{
     color: #fff;
 }
 
-.holder {
+.holder{
     display: flex;
     margin: 10px auto 30px;
     max-width: auto;
@@ -84,7 +84,7 @@ h2{
     font-size: 1em;
     color: #fff;
     margin: 20px;
-    box-shadow: 0px 0px 20px 1px #cacaca;
+    box-shadow: 5px 5px 25px 0px #cacaca;
     border-radius: 10px;
     padding: 10px;
     /* as proriedades a partir daqui alinham o texto no centro */
