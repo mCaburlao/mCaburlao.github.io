@@ -63,7 +63,7 @@ body{
     margin: auto;
     max-width: auto;
     font-family: sans-serif;
-    flex-wrap; wrap;
+    flex-wrap: wrap;
 }
 
 .grow_1 {
