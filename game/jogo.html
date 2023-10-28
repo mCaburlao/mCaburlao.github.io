@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jogo || Nós multímidia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="jogo.css">
     <link rel="stylesheet" href="../menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,15 +27,15 @@
     }
 
     window.onload = function () {
-        var duration = 10*60; // Converter para segundos
+        var duration = 60*60; // Converter para segundos
             display = document.querySelector('#timer'); // selecionando o timer
         startTimer(duration, display); // iniciando o timer
     };
     
-    setTimeout("window.close()", 609000)
+    setTimeout("window.close()", 36000000)
 	
 	function msgEncerramento() {alert('Seu tempo acabou!! Tente novamente!!');}
-	setTimeout(msgEncerramento, 609000)
+	setTimeout(msgEncerramento, 36000000)
       </script>
 
   </head>
@@ -47,8 +47,31 @@
       
 
         <div id="timer" class="timer" style="color: aliceblue;"></div>
-        <h1>UFABC - Escape 10</h1>
+
+        <p>____________________________________________________________________________________________________________</p>
+
+        <h3>Considerações após evento - STEAM BNCC</h3>
+        <h4>O tempo da página foi alterado de 10min para 1h, para análise do professor posterior ao evento.</h4>
+        <h4>No evento a página do jogo fechava depois de 10min com a mesagem "Seu tempo acabou !!". Visto que a regra do jogo era resolver os desafios em 10min.</h4> 
+        <h4>Agora ela somente encerra após 1h.</h4>
+        <br>
+        <h3>Audios avaliativos de professores que jogaram nosso desafio</h3>
+
+        <h4>Hebert - Diretor da escola Nelson Monteiro Palma</h4>
+        <audio controls class = "audio" style="width: 300px; height: 40px;">
+          <source src="Av_Hebert.ogg" type="audio/ogg">
+        </audio>
+
+        <h4>Felipe - Professor da escola Fausto</h4>
+        <audio controls class = "audio" style="width: 300px; height: 40px;">
+          <source src="Av_Felipe.ogg" type="audio/ogg">
+        </audio>
+
+        <p>____________________________________________________________________________________________________________</p>
+    
+        <br>
         
+        <h1>UFABC - Escape 10</h1>
 
         <div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 100px; height: 0;"><iframe title="EDUCATION_ESCAPE_2.5" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/65331004d6c260001027cd26" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
