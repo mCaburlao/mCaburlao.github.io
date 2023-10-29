@@ -81,12 +81,12 @@ h2{
     flex-direction: column;
 }
 
-.holder div { 
+.holder div:not(.nomeRA) { 
     height: auto;
     font-size: 1em;
     color: #fff;
     margin: 20px;
-    box-shadow: 5px 5px 25px 0px #cacaca;
+    box-shadow: 5px 5px 55px 0px #cacaca;
     border-radius: 10px;
     padding: 10px;
     /* as proriedades a partir daqui alinham o texto no centro */
