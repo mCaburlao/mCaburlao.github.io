@@ -7,7 +7,7 @@ body{
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
     -webkit-animation: gradient 10s ease infinite;
-    height: 300vh;
+    height: 500vh;
     margin: 0;
     min-height: 100vh;
     width: 100%;
@@ -81,7 +81,7 @@ h2{
     flex-direction: column;
 }
 
-.holder div:not(.semRegra)  { 
+.holder div:not(.semRegra){ 
     height: auto;
     font-size: 1em;
     color: #fff;
@@ -95,5 +95,3 @@ h2{
     justify-content: center;
     align-items: center;*/
 }
-
-
