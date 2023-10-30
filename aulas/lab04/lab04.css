@@ -81,7 +81,7 @@ h2{
     flex-direction: column;
 }
 
-.holder div:not(.nomeRA) { 
+.holder div:not(.semRegra)  { 
     height: auto;
     font-size: 1em;
     color: #fff;
