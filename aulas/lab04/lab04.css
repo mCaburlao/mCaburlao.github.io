@@ -47,7 +47,7 @@ body{
 
 .principal{
     margin-left: 200px;
-    margin-right: 50px;
+    margin-right: 20px;
     width: 85%;
     position: absolute;
     
@@ -72,7 +72,7 @@ h2{
 
 .holder{
     display: flex;
-    margin: 10px auto 30px;
+    margin: 10px auto 20px;
     max-width: auto;
     font-family: sans-serif;
 }
@@ -85,9 +85,10 @@ h2{
     height: auto;
     font-size: 1em;
     color: #fff;
-    margin: 20px;
-    box-shadow: 5px 5px 55px 0px #cacaca;
+    margin: 10px;
+     /*box-shadow: 5px 5px 55px 0px #cacaca;*/
     border-radius: 10px;
+    border-style: solid;
     padding: 10px;
     /* as proriedades a partir daqui alinham o texto no centro */
     display: flex;
