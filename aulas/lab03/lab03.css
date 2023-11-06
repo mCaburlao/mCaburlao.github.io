@@ -45,15 +45,6 @@ body{
     align-items: center;
 }
 
-.audio{
-  position: absolute;
-  top: 20px;
-  right: 50px;
-  display: flex;
-  align-items: center;
-  
-}
-
 .principal{
     margin-left: 200px;
     margin-right: 50px;
