@@ -110,3 +110,40 @@ h2{
     align-items: center;
     text-align: center;
 }
+
+tbody td {
+    /* 1. Animate the background-color
+       from transparent to white on hover */
+    background-color: rgba(255,255,255,0);
+    transition: all 0.2s linear; 
+    transition-delay: 0.3s, 0s;
+    /* 2. Animate the opacity on hover */
+    opacity: 0.6;
+    /* 3. Scale the text using transform on hover */
+    transform-origin: center left;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+tbody tr:hover td {
+    transition-delay: 0s, 0s;
+    opacity: 1;
+    font-size: 1em;
+    transform: scale(1.1);
+}
+  
+  
+  
+  
+  
+  /* Codepen styling */
+* { box-sizing: border-box }
+  
+table {
+    width: 90%;
+    margin: 0 5%;
+    text-align: left;
+}
+th, td {
+    padding: 0.5em;
+}
