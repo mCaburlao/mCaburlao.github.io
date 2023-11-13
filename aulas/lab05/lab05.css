@@ -106,7 +106,7 @@ h2{
 
 .item_1{
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
