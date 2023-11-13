@@ -87,7 +87,11 @@
                 <ol>
                     <p>Separa os canais e re-arranja para formar imagem RGB</p>
                     <p># Q1 - O que foi feito aqui?</p>
-                    <p><span style="color: aqua;">Resposta </span></p>
+                    <p align="justify">Resposta: <span style="color: aqua;">a função cv2.split() 'separa' imagens coloridas de multi-canal em
+                        imagens de canal único. No caso, foi separada em 3 imagens que destacam, onde
+                        as cores vermelho, verde e azul mais se destacam na imagem original. Já a
+                        função cv2.merge() une em uma única imagem de multi-canal as 3 imagens de canal
+                        único obtidas através da primeira função.</span></p>
 
 
                 </ol>
@@ -124,7 +128,12 @@
                 <ol>
                     <p>Separação das Camadas RGB individualmente</p>
                     <p># Q2 - O que foi feito aqui?</p>
-                    <p><span style="color: aqua;">Resposta </span></p>
+                    <p align="justify">Resposta: <span style="color: aqua;">As linhas de código acima filtram as componentes e mantém, apenas, uma delas.
+                        Para selecionar apenas as componentes de vermelho, substitui-se o segundo e
+                        terceiro valor de todos os vetores que compõe a matriz da imagem por zero.
+                        Já para priorizar os verdes, se anulam os valores na primeira e terceira posição.
+                        Por fim, para obtemção dos tons azuis, zeram-se os primeiros dois valores  dos
+                        vetores componentes. </span></p>
 
                     <br>
                     <div class="semRegra">
