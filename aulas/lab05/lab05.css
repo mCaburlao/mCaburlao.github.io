@@ -110,6 +110,9 @@ h2{
     align-items: center;
     text-align: center;
 }
+.item_1 p{
+    text-align: justify;
+}
 
 tbody td {
     /* 1. Animate the background-color
