@@ -70,6 +70,10 @@ h2{
     color: #fff;
 }
 
+p{
+    text-overflow: ellipsis;
+}
+
 .holder{
     display: flex;
     margin: 10px auto 20px;
@@ -129,3 +133,18 @@ h2{
     text-align: center;
 }
 
+  
+.item_3 table {
+    width: auto;
+    margin: 0 5%;
+    text-align: left;
+}
+
+.item_3 th, td {
+    padding: 1em;
+}
+
+.item_3 table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+  }

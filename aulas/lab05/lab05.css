@@ -141,13 +141,6 @@ tbody tr:hover td {
     transform: scale(1.1);
 }
   
-  
-  
-  
-  
-  /* Codepen styling */
-* { box-sizing: border-box }
-  
 table {
     width: 90%;
     margin: 0 5%;

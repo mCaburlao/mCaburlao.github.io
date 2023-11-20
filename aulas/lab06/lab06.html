@@ -61,16 +61,15 @@
         <div class="holder column">
             <div class="item_1">
                 <ol>
-                    <h3>Links para notebooks: </h3>
+                    <h3>Link para notebook: </h3>
                     <p align="justify">1. Efetue o mesmo procedimento para um nível a mais de codificação, 
                         reconstruindo as imagens a cores, eliminando CH, CV e CD. 
                         Calcule a PSNR e a taxa de compressão do arquivo final reconstruído.</p>
-                        <small><a href="" target="_blank">[clique aqui]</a></small>
                     <br>
                     <br>
                     <p align="justify">2. Elimine progressivamente CD, depois CH e CV, e por fim CH, CV e CD. 
                         Calcule a PSNR e a taxa de compressão do arquivo final reconstruído em cada caso.</p>
-                        <small><a href="" target="_blank">[clique aqui]</a></small>
+                        <small><a href="https://colab.research.google.com/drive/1NA70yAx2SIJ0SN8fwfEyToyc9lVjueKh" target="_blank">[clique aqui]</a></small>
                 </ol>
             </div>
 
@@ -114,11 +113,143 @@
                     <p>3. Fazer uma tabela com as taxas de compressão obtidas e a PSNR de cada uma das fotos utilizadas, 
                         para todos os integrantes do grupo.</p>
                     
-                    <p>#TABELA</p>
+                    <!-- TABELA PSNR Luminancia (dB) -->
+                    <table>
+                        <tr>
+                            <th style="background-color: #240026;">PSNR Luminancia (dB)</th>
+                            <th style="background-color: #240026;" >Caio</th>
+                            <th style="background-color: #240026;">Lucas</th>
+                            <th style="background-color: #240026;">Marcela</th>
+                            <th style="background-color: #240026;">Michael</th>
+                            <th style="background-color: #240026;">Avatar</th>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #240026;">Normal</td>
+                            <td> ca </td>
+                            <td> 161 </td>
+                            <td> ma </td>
+                            <td> 159 </td>
+                            <td> n </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #240026;">Zerando_CD</td>
+                            <td> ca </td>
+                            <td> 163 </td>
+                            <td> ma </td>
+                            <td> 159 </td>
+                            <td> n </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #240026;">Zerando_CD & CV</td>
+                            <td> ca </td>
+                            <td> 70 </td>
+                            <td> ma </td>
+                            <td> 55 </td>
+                            <td> n </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #240026;">Zerando_CD & CV & CH</td>
+                            <td> ca </td>
+                            <td> 70 </td>
+                            <td> ma </td>
+                            <td> 55 </td>
+                            <td> n </td>
+                        </tr>
+                    </table>
 
+                    <br>
+                    <br>
 
-                    
+                    <!-- TABELA PSNR Reconstrução (dB) -->
+                    <table>
+                        <tr>
+                            <th style="background-color: #000426;">PSNR Reconstrução (dB)</th>
+                            <th style="background-color: #000426;" >Caio</th>
+                            <th style="background-color: #000426;">Lucas</th>
+                            <th style="background-color: #000426;">Marcela</th>
+                            <th style="background-color: #000426;">Michael</th>
+                            <th style="background-color: #000426;">Avatar</th>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #000426;">Normal</td>
+                            <td> ca </td>
+                            <td> 156 </td>
+                            <td> ma y</td>
+                            <td> 154 </td>
+                            <td> n </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #000426;">Zerando_CD</td>
+                            <td> ca </td>
+                            <td> 156 </td>
+                            <td> ma </td>
+                            <td> 154 </td>
+                            <td> n </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #000426;">Zerando_CD & CV</td>
+                            <td> ca </td>
+                            <td> 156 </td>
+                            <td> ma </td>
+                            <td> 154 </td>
+                            <td> n </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #000426;">Zerando_CD & CV & CH</td>
+                            <td> ca </td>
+                            <td> 156 </td>
+                            <td> ma </td>
+                            <td> 154 </td>
+                            <td> n </td>
+                        </tr>
+                    </table>
 
+                    <br>
+                    <br>
+
+                    <!-- TABELA TAXA DE COMPRESÃO -->
+                    <table>
+                        <tr>
+                            <th style="background-color: #030e00;">Taxa de Compresão</th>
+                            <th style="background-color: #030e00;">Caio</th>
+                            <th style="background-color: #030e00;">Lucas</th>
+                            <th style="background-color: #030e00;">Marcela</th>
+                            <th style="background-color: #030e00;">Michael</th>
+                            <th style="background-color: #030e00;">Avatar</th>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #030e00;">Normal</td>
+                            <td> ca </td>
+                            <td> 0,93 </td>
+                            <td> ma </td>
+                            <td> 0,91 </td>
+                            <td> n </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #030e00;">Zerando_CD</td>
+                            <td> ca </td>
+                            <td> 0,93 </td>
+                            <td> ma </td>
+                            <td> 0,91 </td>
+                            <td> n </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #030e00;">Zerando_CD & CV</td>
+                            <td> ca </td>
+                            <td> 0,93 </td>
+                            <td> ma </td>
+                            <td> 0,91 </td>
+                            <td> n </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #030e00;">Zerando_CD & CV & CH</td>
+                            <td> ca </td>
+                            <td> 0,93 </td>
+                            <td> ma </td>
+                            <td> 0,91 </td>
+                            <td> n </td>
+                        </tr>
+                    </table>
 
                 </ol>
             </div>
