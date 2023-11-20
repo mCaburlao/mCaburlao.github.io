@@ -88,3 +88,14 @@ button{
         outline-offset: var(--g);
     }
 }
+
+img{
+    width: auto;
+    height: 400px;
+    border-radius: 5%;
+}
+.imagens{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
