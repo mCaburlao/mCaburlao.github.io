@@ -11,6 +11,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&display=swap">
 
+    <script type="text/javascript">
+      function abrir(){
+            document.getElementById('popup').style.display = 'block';
+        }
+        function fechar(){
+            document.getElementById('popup').style.display = 'none';
+        }
+    </script>
+
   </head>
 
   <body>
@@ -24,6 +33,30 @@
         <div class="item_n"><a href="../lab06.html"><button type="submit"><i class="fa fa-arrow-left" style="align-items: left;"></i></button></a></div>
         <div class="item_1"><h1>Imagens geradas - Foto mongetagem com avatares</h1></div>
     </div>
+        <p>Para todas as imagens geradas pelo notebook <a href="javascript: abrir()">[clik aqui]</a></p>
+
+    <!-- ####################  POP IMAGENS GERADAS PELO NOTEBOOK ######################################-->
+    <div id="popup" class="popup column">
+
+      <div class="fotos_1">
+          <a href="javascript: fechar()">
+          <div class="item_n"><td><i class="fa fa-window-close"></i>&nbsp;Close</td></div>
+          </a>
+      </div>
+
+      <div class="fotos_2">
+
+      </div>
+
+      <div class="fotos_3">
+
+      </div>
+
+      <div class="fotos_4">
+
+      </div>
+  </div>
+<!--#########################################################################################################-->
 
     <div class="exercicio1">
       <h3>Eliminando CD, CV e CH</h3>
