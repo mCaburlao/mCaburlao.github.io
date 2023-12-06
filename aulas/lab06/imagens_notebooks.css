@@ -94,6 +94,7 @@ img{
     height: 400px;
     border-radius: 5%;
 }
+
 .imagens{
     text-align: center;
     justify-content: center;
@@ -111,9 +112,13 @@ img{
     display: none;
     background: #000000;
     overflow: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 
     .popup .column {
         flex-direction: column;
     }
+
     
 }
