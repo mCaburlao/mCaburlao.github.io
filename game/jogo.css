@@ -68,4 +68,148 @@ a{
     text-decoration: none;
   }
 
+  .btn4{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 0.20rem 0;
+    width: 170px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.4rem 1rem;
+    cursor: pointer;
+    color:#fff;
+  }
+  .btn4.btn4-blue{
+    background: linear-gradient(45deg, #02c2fd, #004792);
+    background-size: 120%;
+    background-position: center;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+  
+    &:hover{
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      filter: drop-shadow(0 0 0.5rem #91f0ff);
+    }
+  }
+
+  .btn5{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 0.20rem 0;
+    width: 170px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.4rem 1rem;
+    cursor: pointer;
+    color:#fff;
+  }
+  .btn5.btn5-green{
+    background: linear-gradient(45deg, #27EA39, #00750B);
+    background-size: 120%;
+    background-position: center;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+  
+    &:hover{
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      filter: drop-shadow(0 0 0.5rem #91f0ff);
+    }
+  }
+
+  .btn1{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 0.20rem 0;
+    width: 170px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.4rem 1rem;
+    cursor: pointer;
+    color:#fff;
+  }
+  .btn1.btn1-red{
+    background: linear-gradient(45deg, #360000, #FE0000);
+    background-size: 120%;
+    background-position: center;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+  
+    &:hover{
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      filter: drop-shadow(0 0 0.5rem #ffffff);
+    }
+  }
+
+  .btn2{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 0.20rem 0;
+    width: 170px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.4rem 1rem;
+    cursor: pointer;
+    color:#fff;
+  }
+  .btn2.btn2-purple{
+    background: linear-gradient(45deg, #380036, #B721FF);
+    background-size: 120%;
+    background-position: center;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+  
+    &:hover{
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      filter: drop-shadow(0 0 0.5rem #ffc2ec);
+    }
+  }
+
+  .btn3{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    padding: 0.20rem 0;
+    width: 170px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.4rem 1rem;
+    cursor: pointer;
+    color:#fff;
+  }
+  .btn3.btn3-pink{
+    background: linear-gradient(45deg, #ee7752, #890092);
+    background-size: 120%;
+    background-position: center;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+  
+    &:hover{
+      background: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      filter: drop-shadow(0 0 0.5rem #ffba8f);
+    }
+  }
 
